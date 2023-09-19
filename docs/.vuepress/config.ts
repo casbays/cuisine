@@ -1,7 +1,6 @@
 import { defaultTheme } from 'vuepress'
 
 import { searchProPlugin } from "vuepress-plugin-search-pro"
-import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 
 import {
     navbarEN,
@@ -41,8 +40,7 @@ module.exports = {
                     formatter: `Tag: $content`,
                 },
             ],
-        }),
-        backToTopPlugin()
+        })
     ],
     theme: defaultTheme({
         logo: '/zongzi.png',
