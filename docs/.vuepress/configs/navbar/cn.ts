@@ -8,29 +8,11 @@ export const navbarCN: NavbarConfig = [
     {
         text: '家常菜',
         children: [{
-            text: 'Login',
+            text: '小炒',
             link: '/usages/login.md'
         }, {
-            text: 'Home',
+            text: '干锅',
             link: '/usages/dashboard.md'
-        }, {
-            text: 'Mission Center',
-            link: '/usages/task.md'
-        }, {
-            text: 'Fund',
-            link: '/usages/fund.md'
-        }, {
-            text: 'Investor Relations',
-            link: '/usages/ir.md'
-        }, {
-            text: 'Pre-investment',
-            link: '/usages/preivs.md'
-        }, {
-            text: 'Post-investment',
-            link: '/usages/postivs.md'
-        }, {
-            text: 'Report Center',
-            link: '/usages/report.md'
         }]
     },
     {
