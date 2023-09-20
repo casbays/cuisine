@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-3745acc2","path":"/homely/suanrongfensixia.html","title":"食材","lang":"简体中文","frontmatter":{},"headers":[],"git":{"updatedTime":1695108967000,"contributors":[{"name":"casbays","email":"casbays@outlook.com","commits":1}]},"filePathRelative":"homely/suanrongfensixia.md","excerpt":""}');export{a as data};
