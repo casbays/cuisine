@@ -11,7 +11,7 @@ import {
 
 module.exports = {
     port: 8080,
-    base: '',
+    base: '/cuisine',
     head: [
         [
             'link', { rel: 'icon', href: '/zongzi.png' }

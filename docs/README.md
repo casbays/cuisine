@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /zongzi.png
+heroImage: zongzi.png
 heroHeight: 100
 heroText: 粽食
 tagline: 烹饪之道，如火中取宝
