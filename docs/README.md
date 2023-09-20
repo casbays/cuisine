@@ -24,5 +24,5 @@ features:
   details: 中国美食不仅是一种食物，更是一种文化的体现，许多菜肴都有着深厚的历史和文化内涵。
 - title: 强调家庭和社群
   details: 中国美食常常是家庭和社群活动的中心，人们通过分享美食来增进彼此之间的感情。
-footer: Copyright © 2023 CDH Investments.
+footer: Copyright © 2023 Casbays.
 ---
