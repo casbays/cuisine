@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-10766e4a","path":"/en/recipes/newbies.html","title":"","lang":"English","frontmatter":{},"headers":[],"git":{"updatedTime":1695294119000,"contributors":[{"name":"casbays","email":"casbays@outlook.com","commits":1}]},"filePathRelative":"en/recipes/newbies.md","excerpt":""}');export{e as data};
