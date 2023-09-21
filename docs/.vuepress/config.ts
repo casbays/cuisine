@@ -14,7 +14,7 @@ module.exports = {
     base: '/cuisine',
     head: [
         [
-            'link', { rel: 'icon', href: '/zongzi.png' }
+            'link', { rel: 'icon', href: '/favicon.ico' }
         ]
     ],
     locales: {
@@ -44,19 +44,21 @@ module.exports = {
         })
     ],
     theme: defaultTheme({
-        logo: '/zongzi.png',
+        logo: 'zongzi.png',
         locales: {
             '/': {
                 selectLanguageName: '简体中文',
                 selectLanguageText: '简体中文',
                 navbar: navbarCN,
-                sidebar: sidebarCN
+                // sidebar: sidebarCN,
+                sidebarDepth: 3
             },
             '/en': {
                 selectLanguageName: 'English',
                 selectLanguageText: 'English',
                 navbar: navbarEN,
-                sidebar: sidebarEN
+                // sidebar: sidebarEN,
+                sidebarDepth: 3
             }
         }
     }),

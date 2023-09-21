@@ -5,11 +5,11 @@ heroHeight: 100
 heroText: 粽食
 tagline: 烹饪之道，如火中取宝
 actions:
-  - text: 家常菜
-    link: /homely/suanrongfensixia.md
+  - text: 下饭菜
+    link: /recipes/ricepartner.md
     type: primary
-  - text: 私房菜
-    link: /homely/suanrongfensixia.md
+  - text: 快手菜
+    link: /recipes/newbies.md
     type: secondary
 features:
 - title: 种类繁多

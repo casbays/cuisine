@@ -6,19 +6,52 @@ export const navbarCN: NavbarConfig = [
         link: '/'
     },
     {
-        text: '家常菜',
+        text: '菜式',
         children: [{
-            text: '小炒',
-            link: '/usages/login.md'
+            text: '下饭菜',
+            link: '/recipes/ricepartner.md'
         }, {
-            text: '干锅',
+            text: '快手菜',
+            link: '/recipes/newbies.md'
+        }, {
+            text: '下酒菜',
+            link: '/usages/dashboard.md'
+        }, {
+            text: '创意菜',
+            link: '/usages/dashboard.md'
+        }, {
+            text: '凉菜',
             link: '/usages/dashboard.md'
         }]
     },
     {
-        text: '私房菜',
+        text: '家常',
         children: [{
-            text: 'Portfolio Review',
+            text: '热菜',
+            link: '/references/review.md'
+        }, {
+            text: '凉菜',
+            link: '/references/review.md'
+        }, {
+            text: '素菜',
+            link: '/references/review.md'
+        }, {
+            text: '靓汤',
+            link: '/references/review.md'
+        }, {
+            text: '粥品',
+            link: '/references/review.md'
+        }, {
+            text: '点心',
+            link: '/references/review.md'
+        }, {
+            text: '卤味',
+            link: '/references/review.md'
+        }, {
+            text: '海鲜',
+            link: '/references/review.md'
+        }, {
+            text: '瘦身',
             link: '/references/review.md'
         }]
     },

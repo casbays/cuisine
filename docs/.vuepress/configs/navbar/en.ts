@@ -2,24 +2,82 @@ import type { NavbarConfig } from '@vuepress/theme-default'
 
 export const navbarEN: NavbarConfig = [
     {
-        text: '指南',
-        link: '/zh'
+        text: 'Guide',
+        link: '/en'
     },
     {
-        text: '使用',
+        text: 'Feature',
         children: [{
-            text: '小炒',
-            link: '/usages/login.md'
+            text: 'Rice partner',
+            link: '/en/recipes/ricepartner.md'
         }, {
-            text: '干锅',
+            text: 'Suitable for newbies',
+            link: '/en/recipes/newbies.md'
+        }, {
+            text: 'Wine partner',
+            link: '/usages/dashboard.md'
+        }, {
+            text: 'Originality',
             link: '/usages/dashboard.md'
         }]
     },
     {
-        text: '参考',
+        text: 'Homely',
         children: [{
-            text: '投资复盘',
-            link: '/zh/references/review.md'
+            text: 'Hot',
+            link: '/references/review.md'
+        }, {
+            text: 'Cold',
+            link: '/references/review.md'
+        }, {
+            text: 'Vegetable',
+            link: '/references/review.md'
+        }, {
+            text: 'Soup',
+            link: '/references/review.md'
+        }, {
+            text: 'Gruel',
+            link: '/references/review.md'
+        }, {
+            text: 'Dim sum',
+            link: '/references/review.md'
+        }, {
+            text: 'Halogen',
+            link: '/references/review.md'
+        }, {
+            text: 'Seafood',
+            link: '/references/review.md'
+        }, {
+            text: 'Slimming',
+            link: '/references/review.md'
+        }]
+    },
+    {
+        text: 'Region',
+        children: [{
+            text: 'Shandong',
+            link: '/references/review.md'
+        }, {
+            text: 'Guangdong',
+            link: '/references/review.md'
+        }, {
+            text: 'Sichuan',
+            link: '/references/review.md'
+        }, {
+            text: 'Jiangsu',
+            link: '/references/review.md'
+        }, {
+            text: 'Zhejiang',
+            link: '/references/review.md'
+        }, {
+            text: 'Fujian',
+            link: '/references/review.md'
+        }, {
+            text: 'Hunan',
+            link: '/references/review.md'
+        }, {
+            text: 'Anhui',
+            link: '/references/review.md'
         }]
     }
 ]
